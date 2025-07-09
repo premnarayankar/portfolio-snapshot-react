@@ -4,7 +4,7 @@ export default function Header() {
   const [selectedDate, setSelectedDate] = useState("2025-07-09");
 
   const handleDownload = () => {
-    alert("Download PDF clicked (non-functional)");
+    alert("Download PDF clicked");
   };
 
   const handleDateChange = (e) => {
