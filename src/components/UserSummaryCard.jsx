@@ -1,6 +1,6 @@
 export default function UserSummaryCard({ data }) {
   return (
-    <div className="bg-white p-6 rounded-xl shadow flex flex-col gap-3">
+    <div className="bg-white p-6 rounded-xl border border-gray-200 flex flex-col gap-3">
       <div>
         <h2 className="text-sm text-gray-500">Name</h2>
         <p className="font-semibold text-lg">{data.name}</p>

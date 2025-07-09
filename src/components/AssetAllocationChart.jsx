@@ -9,7 +9,7 @@ import {
 
 const COLORS = ["#22c55e", "#3b82f6", "#f59e0b"];
 
-export default function AssetPieChart({ data }) {
+export default function AssetAllocationChart({ data }) {
   return (
     <div className="bg-white p-6 rounded-xl shadow">
       <h2 className="text-md font-semibold mb-2">Asset Allocation</h2>
